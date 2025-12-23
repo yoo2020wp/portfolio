@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cybersecurity & Network Engineering portfolio and documentation by Hyuntae Yoo (Hunter)." />
+  <title>Hyuntae Yoo (Hunter) | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: If you later want Inter from Google Fonts, uncomment:
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a class="brand" href="/index.html" aria-label="Home">
+      <span class="brand-name">HYUNTAE YOO</span>
+      <span class="brand-sub">(HUNTER)</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="/index.html#about">ABOUT</a>
+      <a href="/courses.html">COURSES</a>
+      <a href="/projects.html">PROJECTS</a>
+      <a href="/docs.html">DOCUMENTATION</a>
+      <a href="/index.html#contact">CONTACT</a>
+
+      <div class="nav-icons" aria-label="Links">
+        <a class="icon-link" href="https://www.linkedin.com/in/hyuntaeyoo" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1s2.5 1.12 2.5 2.5ZM.5 8.5h4V23h-4V8.5ZM8.5 8.5h3.8v2h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23h-4V8.5Z"/></svg>
+        </a>
+        <a class="icon-link" href="mailto:htyoo@purdue.edu" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="kicker">Documentation</p>
+      <h1>Technical Documentation</h1>
+      <p class="breadcrumb">Procedure-first writeups with commands, verification steps, and troubleshooting notes (IPs anonymized).</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="split">
+        <div class="card">
+          <h3>Categories</h3>
+          <div class="meta">
+            <span class="badge">Lab Notes</span>
+            <span class="badge">Concepts</span>
+            <span class="badge">Troubleshooting</span>
+            <span class="badge">Config Guides</span>
+            <span class="badge">Research Notes (WASM)</span>
+          </div>
+          <p style="margin-top:12px" class="muted">
+            Every post uses the same structure so readers can quickly scan and reproduce steps.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Post Template</h3>
+          <p class="muted small">Use this structure when writing new documentation:</p>
+          <pre><code>Title
+Last updated: YYYY-MM-DD
+Category: (Lab Notes | Concepts | Troubleshooting | Config Guides | Research Notes)
+
+Summary (3–6 lines)
+
+Environment / Assumptions (IPs anonymized)
+Tools / Devices
+Procedure (step-by-step: Typed / Entered / Clicked)
+Verification (what proves it works)
+Troubleshooting (issue → cause → fix)
+Artifacts (configs, diagrams, logs)</code></pre>
+        </div>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section-title">
+        <h2>Posts</h2>
+        <p>Starter posts are included as placeholders. Replace with your real lab reports and notes.</p>
+      </div>
+
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>OSPFv3 lab verification checklist</h3>
+          <p>Repeatable validation steps for OSPFv3.</p>
+          <div class="meta"><span class="badge">Concepts</span></div>
+          <a class="card-link" href="/docs/ospfv3-verification.html"><span>Read</span><svg viewBox="0 0 24 24"><path d="M9 18a1 1 0 0 1-.7-1.71L12.59 12 8.3 7.71a1 1 0 0 1 1.4-1.42l5 5a1 1 0 0 1 0 1.42l-5 5A1 1 0 0 1 9 18Z"/></svg></a>
+        </article>
+
+        <article class="card">
+          <h3>DHCPv6: stateful vs stateless</h3>
+          <p>Quick guide with verification methods.</p>
+          <div class="meta"><span class="badge">Config Guides</span></div>
+          <a class="card-link" href="/docs/dhcpv6-modes.html"><span>Read</span><svg viewBox="0 0 24 24"><path d="M9 18a1 1 0 0 1-.7-1.71L12.59 12 8.3 7.71a1 1 0 0 1 1.4-1.42l5 5a1 1 0 0 1 0 1.42l-5 5A1 1 0 0 1 9 18Z"/></svg></a>
+        </article>
+
+        <article class="card">
+          <h3>Research notes: WASM in security</h3>
+          <p>Ongoing notes and experiments.</p>
+          <div class="meta"><span class="badge">Research Notes</span></div>
+          <a class="card-link" href="/docs/wasm-security-notes.html"><span>Read</span><svg viewBox="0 0 24 24"><path d="M9 18a1 1 0 0 1-.7-1.71L12.59 12 8.3 7.71a1 1 0 0 1 1.4-1.42l5 5a1 1 0 0 1 0 1.42l-5 5A1 1 0 0 1 9 18Z"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="muted small">Disclaimer: This site documents lab and personal projects. Network details are anonymized (e.g., IP addresses) and represent a simulated environment for learning and demonstration, not a production network.</p>
+    <p class="muted small">© <span id="year"></span> Hyuntae Yoo (Hunter). All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

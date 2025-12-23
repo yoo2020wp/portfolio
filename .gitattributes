@@ -1,0 +1,8 @@
+# Consolidate all text files into LF
+* text=auto eol=lf
+
+# No newline conversion for all binaries
+*.png binary
+*.jpg binary
+*.svg binary
+*.pdf binary

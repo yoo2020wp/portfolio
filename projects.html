@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cybersecurity & Network Engineering portfolio and documentation by Hyuntae Yoo (Hunter)." />
+  <title>Hyuntae Yoo (Hunter) | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: If you later want Inter from Google Fonts, uncomment:
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a class="brand" href="/index.html" aria-label="Home">
+      <span class="brand-name">HYUNTAE YOO</span>
+      <span class="brand-sub">(HUNTER)</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="/index.html#about">ABOUT</a>
+      <a href="/courses.html">COURSES</a>
+      <a href="/projects.html">PROJECTS</a>
+      <a href="/docs.html">DOCUMENTATION</a>
+      <a href="/index.html#contact">CONTACT</a>
+
+      <div class="nav-icons" aria-label="Links">
+        <a class="icon-link" href="https://www.linkedin.com/in/hyuntaeyoo" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1s2.5 1.12 2.5 2.5ZM.5 8.5h4V23h-4V8.5ZM8.5 8.5h3.8v2h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23h-4V8.5Z"/></svg>
+        </a>
+        <a class="icon-link" href="mailto:htyoo@purdue.edu" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="kicker">Projects</p>
+      <h1>Projects</h1>
+      <p class="breadcrumb">Outcomes-first pages with deep technical detail: architecture, commands, verification, troubleshooting, and linked documentation.</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>Network Engineering Lab</h3>
+          <p>Multi-device enterprise-style lab networking with diagrams and repeatable validation.</p>
+          <div class="meta"><span class="badge">OSPF</span><span class="badge">IPv6</span><span class="badge">VLANs</span></div>
+          <a class="card-link" href="/projects/network-engineering-lab.html"><span>Open</span><svg viewBox="0 0 24 24"><path d="M9 18a1 1 0 0 1-.7-1.71L12.59 12 8.3 7.71a1 1 0 0 1 1.4-1.42l5 5a1 1 0 0 1 0 1.42l-5 5A1 1 0 0 1 9 18Z"/></svg></a>
+        </article>
+
+        <article class="card">
+          <h3>Cybersecurity Home Lab</h3>
+          <p>Security practice environment: hardening, controlled exploitation, and mitigation workflows.</p>
+          <div class="meta"><span class="badge">Hardening</span><span class="badge">Logging</span><span class="badge">Network Controls</span></div>
+          <a class="card-link" href="/projects/cybersecurity-home-lab.html"><span>Open</span><svg viewBox="0 0 24 24"><path d="M9 18a1 1 0 0 1-.7-1.71L12.59 12 8.3 7.71a1 1 0 0 1 1.4-1.42l5 5a1 1 0 0 1 0 1.42l-5 5A1 1 0 0 1 9 18Z"/></svg></a>
+        </article>
+
+        <article class="card">
+          <h3>AWS Cloud Infrastructure Project</h3>
+          <p>Cloud architecture with security controls, HA, and cost-aware design decisions.</p>
+          <div class="meta"><span class="badge">VPC</span><span class="badge">IAM</span><span class="badge">RDS</span></div>
+          <a class="card-link" href="/projects/aws-cloud-infra.html"><span>Open</span><svg viewBox="0 0 24 24"><path d="M9 18a1 1 0 0 1-.7-1.71L12.59 12 8.3 7.71a1 1 0 0 1 1.4-1.42l5 5a1 1 0 0 1 0 1.42l-5 5A1 1 0 0 1 9 18Z"/></svg></a>
+        </article>
+      </div>
+
+      <div style="height:18px"></div>
+      <div class="note">
+        Tip: Each project page links to deeper, step-by-step documentation posts so engineers can verify your process.
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="muted small">Disclaimer: This site documents lab and personal projects. Network details are anonymized (e.g., IP addresses) and represent a simulated environment for learning and demonstration, not a production network.</p>
+    <p class="muted small">© <span id="year"></span> Hyuntae Yoo (Hunter). All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

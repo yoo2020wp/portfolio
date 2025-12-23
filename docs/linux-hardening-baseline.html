@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cybersecurity & Network Engineering portfolio and documentation by Hyuntae Yoo (Hunter)." />
+  <title>Hyuntae Yoo (Hunter) | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: If you later want Inter from Google Fonts, uncomment:
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a class="brand" href="/index.html" aria-label="Home">
+      <span class="brand-name">HYUNTAE YOO</span>
+      <span class="brand-sub">(HUNTER)</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="/index.html#about">ABOUT</a>
+      <a href="/courses.html">COURSES</a>
+      <a href="/projects.html">PROJECTS</a>
+      <a href="/docs.html">DOCUMENTATION</a>
+      <a href="/index.html#contact">CONTACT</a>
+
+      <div class="nav-icons" aria-label="Links">
+        <a class="icon-link" href="https://www.linkedin.com/in/hyuntaeyoo" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1s2.5 1.12 2.5 2.5ZM.5 8.5h4V23h-4V8.5ZM8.5 8.5h3.8v2h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23h-4V8.5Z"/></svg>
+        </a>
+        <a class="icon-link" href="mailto:htyoo@purdue.edu" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="kicker">Documentation</p>
+      <h1>Linux hardening baseline (procedure-driven)</h1>
+      <p class="breadcrumb">Lab Notes • Procedure • Verification • Troubleshooting</p>
+    </div>
+  </section>
+  <section class="content">
+    <div class="container">
+      <div class="prose">
+        
+<p class="muted small">Last updated: <strong>YYYY-MM-DD</strong> • Category: <strong>Lab Notes</strong></p>
+<p>A starter baseline for hardening a lab Linux VM with validation steps after each change.</p>
+
+<h2>Environment / assumptions</h2>
+<ul>
+  <li>IPs anonymized (e.g., <code>10.0.x.0/30</code>, <code>fd00:xxxx::/64</code>)</li>
+  <li>Simulated environment for demonstration (not production)</li>
+</ul>
+
+<h2>Procedure</h2>
+<ol>
+<li><strong>Updated packages and rebooted if required.</strong></li><li><strong>Hardened SSH settings (key auth, disable root login) and verified access remains.</strong></li><li><strong>Enabled firewall rules and tested allowed/blocked ports.</strong></li><li><strong>Reviewed logs to confirm expected events are captured.</strong></li>
+</ol>
+
+<h2>Verification</h2>
+<ul>
+  <li>List the outputs that prove success.</li>
+  <li>Include command outputs (anonymized) when possible.</li>
+</ul>
+
+<h2>Troubleshooting</h2>
+<ul>
+  <li><strong>Issue:</strong> …</li>
+  <li><strong>Cause:</strong> …</li>
+  <li><strong>Fix:</strong> …</li>
+</ul>
+
+<h2>Artifacts</h2>
+<ul>
+  <li>Configs, diagrams, logs</li>
+</ul>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="muted small">Disclaimer: This site documents lab and personal projects. Network details are anonymized (e.g., IP addresses) and represent a simulated environment for learning and demonstration, not a production network.</p>
+    <p class="muted small">© <span id="year"></span> Hyuntae Yoo (Hunter). All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
